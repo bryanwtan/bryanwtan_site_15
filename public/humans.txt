@@ -5,7 +5,7 @@ languages: javascript, html, css
 
 dev os: elementary freya
 tools: io.js, Node.js, vim, atom, git, foundation, D3.js
-apis: twilio
+apis: twilio, facebook
 
 photos: canon t2i 50mm f1.4
 editing: lightroom 4, imagemagick
