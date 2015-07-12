@@ -10,6 +10,4 @@ apis: twilio, facebook
 photos: canon t2i 50mm f1.4
 editing: lightroom 4, imagemagick
 
-source code: github.com/bryanwtan
-
-easter eggs: click landing page to swap background image
+source code: https://github.com/bryanwtan/bryanwtan_site_15 
