@@ -1,7 +1,7 @@
 ## bryanwtan.com
 
 Check out humans.txt at:
-https://github.com/bryanwtan/bryanwtan_site_15/blob/master/public/humans.txt
+http://www.bryanwtan.com/humans.txt
 
 #### Node.js/io.js stuff
 socket.io for client and server communication
@@ -13,6 +13,6 @@ Facebook Graph API retrieves my photography page album metrics. I created nodes 
 #### Easter eggs:
 Clicking the full screen purple cover swaps the background image.
 The heart at the bottom of the page changes to twitter on hover.
-Mobile users see fewer preview photos, the rest are gallery revealed
+Mobile users see fewer preview photos, the rest are gallery revealed.
 
 Have a great day!
