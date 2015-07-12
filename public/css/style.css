@@ -1,0 +1,118 @@
+body{
+    background-color: #252525;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*large screens*/
+@media (min-width: 64.063em){
+    h1{ font-size: 3.8em; }
+    h3{ font-size: 2.8em; }
+    h5{ font-size: 1.5em; }
+    .ea_back{
+        height: 625px;
+        background: url('/pics/ea/ea_crop_l.png') bottom center no-repeat;
+    }
+        #size_ea_logo{ max-width: 35%; }
+}
+/*medium screens*/
+@media (min-width: 40.063em) and (max-width: 64em) {
+    h1{ font-size: 2.9em; }
+    h3{ font-size: 2em; }
+    h5{ font-size: 1em; }
+    .ea_back{
+        height: 500px;
+        background: url('/pics/ea/ea_crop_m.png') bottom center no-repeat;
+    }
+    #graph_descriptor p{
+        font-size: 1.1em;
+    }
+    #size_ea_logo{ max-width: 35%; }
+}
+/*small screens*/
+@media (max-width: 40em){
+    h1{ font-size: 2.5em; }
+    h3{ font-size: 1.7em; }
+    h5{ font-size: 1em; }
+    .ea_back{
+        height: 450px;
+        background: url('/pics/ea/ea_crop_s.png') bottom center no-repeat;
+    }
+    #graph_descriptor p{
+        font-size: 1.1em;
+    }
+    #size_ea_logo{ width: 50%; }
+}
+@media screen and (orientation:landscape) and (max-width: 64em){
+    .tilt_hide{
+        display: none;
+    }
+}
+
+/*all screens*/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    margin: 0;
+}
+p{
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+/*foundation icons buttons*/
+.style6 {
+    color: #ffffff;
+} .style6:hover {
+    color: #252525;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.6), 3px 3px 8px rgba(0, 0, 0, 0.4);
+} .style6:focus {
+    color: #252525;
+}
+
+.button{
+    color: #54366d;
+    background-color: #ffffff;
+    border: 1px solid white;
+    font-family: 'Source Sans Pro', sans-serif;
+} .button:hover{ background-color: #252525;
+} .button:focus{ background-color: #252525; }
+
+.w_icons{
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.w_text{ color: #ffffff; }
+#annotate{ font-size: 1em; }
+
+.y_text{ color: #fff67a; }
+.purple{ background-color: #492f5f !important; }
+.nav_purple{ background-color: #54366d; }
+.blue{ background-color: #1b396d; }
+.nav_blue{ background-color: #1f407a; }
+.green{ background-color: #2E473B; }
+.nav_green{ background-color: #385648; }
+.grey{ background-color: #252525; }
+.nav_grey{ background-color: #313131; }
+#footer{ background-color: #232e39; }
+
+
+body{
+    cursor: default;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.greyscale{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.hidden{ opacity: 0; }
+
+/*remove the image carousel, expand to full screen*/
+.clearing-container .carousel { display: none; }
+.clearing-assembled .clearing-container .visible-img { height: 100%; }

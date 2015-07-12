@@ -1,0 +1,115 @@
+/*large screens*/
+@media (min-width: 64.063em){
+    #custom_nav{
+        height: 100px;
+        font-size: 1.9em;
+    }
+    #cover{
+        padding-top: 100px;
+        min-height: 750px;
+    }
+    .cover_back{
+        background: url('/pics/c/prof.jpg') bottom center no-repeat;
+    }
+    .cover_back2{
+        background: url('/pics/c/bry_lion.jpg') bottom right no-repeat;
+    }
+
+    .n_space{ height: calc(100vh - 1px); }
+    .s_space{ height: calc(100vh - 40px); }
+
+    .sc_nav{
+        height: 60px !important;
+        font-size: 1.2em !important;
+    }
+    .sc_cover{
+        padding-top: 60px !important;
+    }
+
+    /*page jumping offset*/
+    a.anchor{ top: -99px; }
+}
+/*medium screens*/
+@media (min-width: 40.063em) and (max-width: 64em) {
+    #custom_nav{
+        height: 80px;
+        font-size: 2.2em;
+    }
+    #cover{
+        padding-top: 80px;
+        min-height: 500px;
+    }
+    .cover_back{
+        background: url('/pics/c/prof_m.jpg') bottom center no-repeat;
+    }
+    .cover_back2{
+        background: url('/pics/c/bry_lion_m.jpg') bottom right no-repeat;
+    }
+
+    .n_space{ height: calc(100vh - 1px); }
+    .s_space{ height: calc(100vh - 20px); }
+
+    .sc_nav{
+        height: 60px !important;
+        font-size: 1.7em !important;
+    }
+    .sc_cover{
+        padding-top: 60px !important;
+    }
+
+    /*page jumping offset*/
+    a.anchor{ top: -79px; }
+}
+/* small screens*/
+@media (max-width: 40em){
+    #custom_nav{
+        height: 60px;
+        font-size: 1.7em;
+    }
+    #cover{
+        height: 100vh;
+        padding-top: 60px;
+        min-height: 400px;
+    }
+    .cover_back{
+        background: url('/pics/c/prof_s.jpg') bottom center no-repeat;
+    }
+    .cover_back2{
+        background: url('/pics/c/bry_lion_s.jpg') bottom right no-repeat;
+    }
+
+    /*page jumping offset*/
+    a.anchor{ top: -59px; }
+}
+
+.right, .left{ margin-top: 0.35em; }
+.left{ margin-left: 0.6em; }
+.right{
+    margin-right: 0.6em;
+    margin-left: -0.3em;
+}
+
+/*changed by js*/
+#custom_nav{
+    transition: height 0.1s ease-in-out,
+        background .2s ease-in-out,
+        margin 0.1s ease-in-out,
+        font-size 0.1s ease-in-out;
+}
+#cover{
+    background-color: #492f5f;
+}
+
+.win_pad{ padding-top: 10vh; }
+
+#arrow_icon_bottom{
+    width: 100px;
+    position: absolute;
+    bottom: 3%;
+}
+
+a.anchor{
+    display: block;
+    position: relative;
+    visibility: hidden;
+}

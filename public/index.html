@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- jquery -->
+	<script src='//code.jquery.com/jquery-1.11.3.min.js'></script>
+	<!-- socket.io -->
+	<script src='https://cdn.socket.io/socket.io-1.3.5.js'></script>
+	<!-- foundation framework -->
+	<link href='css/normalize.min.css' rel='stylesheet'>
+	<link href='css/foundation.min.css' rel='stylesheet'>
+	<script src='js/modernizr.min.js'></script>
+	<link href='foundation-icons/foundation-icons.css' rel='stylesheet'>
+	<!-- font awesome -->
+	<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
+		rel='stylesheet'>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300'
+		rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab'
+		rel='stylesheet'>
+	<!-- custom styles -->
+	<link rel='shortcut icon' href='favicon.ico' />
+	<link href='css/style.css' rel='stylesheet'>
+	<link href='css/facebook_graph.css' rel='stylesheet'>
+	<!-- these override after styles -->
+	<link href='css/top.css' rel='stylesheet'>
+	<link href='css/footer.css' rel='stylesheet'>
+
+	<title>Bryan Tan, Web Developer</title>
+</head>
+
+<body>
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K6SBKR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-K6SBKR');</script>
+	<!-- End Google Tag Manager -->
+
+
+	<div id='custom_nav' class='fixed nav_purple'>
+		<h5><span id='snappy_scroll'>
+			<a id='logo_link' class='left style6' href='/'>BT</a>
+
+			<a class='right' href='https://www.linkedin.com/in/bwtan'>
+				<i class='fi-social-linkedin style6'></i>
+			</a>
+			<a class='right' href='https://github.com/bryanwtan'>
+				<i class='fi-social-github style6'></i>
+			</a>
+		</span></h5>
+	</div>
+
+	<div id='cover' class='purple n_space cover_back'>
+	<div class='row'>
+		<div class=
+		'win_pad small-11 small-offset-1 medium-10 medium-offset-2 large-12 large-offset-0 columns'>
+			<h1>Hi, I'm <span class='y_text'>Bryan</span></h1>
+			<h3 id='cycle'>
+				Web Developer
+			</h3>
+			<br><br>
+			<a href='https://dl.dropboxusercontent.com/u/89060993/Bryan_Tan_Resume.pdf'
+			class='button small radius'><b>Resume</b></a>
+		</div>
+	</div>
+	<div class='row'>
+		<div id='arrow_icon_bottom' class=
+		'small-11 small-offset-1 medium-10 medium-offset-2 large-12 large-offset-0 columns'>
+			<h1><a href='#jump_anchor'>
+				<i class='fa fa-chevron-circle-down style6'></i>
+			</a></h1>
+		</div>
+	</div>
+	</div>
+
+
+
+	<div id='code'><a class='anchor' id='jump_anchor'></a>
+	<div class='row'>
+		<div class='large-12 columns'>
+			<center><br><br><h3>Coding Projects</h3><br><br><center>
+		</div>
+
+		<div id='switcher' class='medium-8 large-8 columns'>
+		<div class='row'>
+			<div class='large-12 columns'>
+				<a href='https://github.com/bryanwtan/bryanwtan_site_15'>
+					<img class='greyscale hidden' src='pics/proj/site.png' />
+				</a>
+			</div>
+		</div>
+		<br>
+		<div class='row'>
+			<div class='large-12 columns'>
+				<a href='https://github.com/bryanwtan/summer_projects'>
+					<img class='greyscale hidden' src='pics/proj/summer.png' />
+				</a>
+			</div>
+		</div>
+		<br>
+		<div class='row'>
+			<div class='large-12 columns'>
+				<a href='https://github.com/bryanwtan/livelights'>
+					<img class='greyscale hidden' src='pics/proj/sound.jpg' />
+				</a>
+			</div>
+		</div>
+		<br>
+		</div>
+		<div class='medium-4 large-4 columns'>
+			<h5 class='y_text'>Languages</h5>
+			<p>
+				JavaScript,&nbsp; Ruby,&nbsp; Python,&nbsp;
+				CSS,&nbsp; HTML,&nbsp; Arduino,&nbsp; SQL
+			</p>
+
+			<h5 class='y_text'>Tools</h5>
+			<p>
+				Linux,&nbsp; Node.js,&nbsp;
+				Vim,&nbsp; Atom,&nbsp;
+				Foundation,&nbsp; GitHub,&nbsp; Heroku
+			</p>
+			<h5 class='y_text'>Events</h5>
+			<p>
+				PennApps,&nbsp; MHacks,&nbsp; HopHacks,&nbsp;
+				CodePSU,&nbsp; HackPSU
+			</p>
+		</div>
+	</div>
+	<br><br>
+	</div>
+
+	<div id='photo' class='blue'>
+    <div class='row'>
+		<div class='large-12 columns'>
+			<center><br><br><h3>Photography</h3><br><br><center>
+		</div>
+		<div class='large-12 columns'>
+			<ul class='small-block-grid-2 medium-block-grid-3 large-block-grid-4'
+			data-clearing>
+				<li><a href='pics/horiz/m/jen_hol.jpg'>
+					<img class='hidden' src='pics/horiz/s/jen_hol.jpg' /></a></li>
+				<li><a href='pics/horiz/m/arjun_sam.jpg'>
+					<img class='hidden' src='pics/horiz/s/arjun_sam.jpg' /></a></li>
+				<li class='hide-for-small'><a href='pics/horiz/m/mimi.jpg'>
+					<img class='hidden' src='pics/horiz/s/mimi.jpg' /></a></li>
+				<li class='hide-for-small hide-for-medium'><a href='pics/horiz/m/braden.jpg'>
+					<img class='hidden' src='pics/horiz/s/braden.jpg' /></a></li>
+
+				<li><a href='pics/vert/m/carrie.jpg'>
+					<img class='hidden' src='pics/vert/s/carrie.jpg' /></a></li>
+				<li><a href='pics/vert/m/kara.jpg'>
+					<img class='hidden' src='pics/vert/s/kara.jpg' /></a></li>
+				<li class='hide-for-small hide-for-medium'><a href='pics/vert/m/sam.jpg'>
+					<img class='hidden' src='pics/vert/s/sam.jpg' /></a></li>
+				<li class='hide-for-small'><a href='pics/vert/m/albert.jpg'>
+					<img class='hidden' src='pics/vert/s/albert.jpg' /></a></li>
+
+				<li class='hide-for-small'><a href='pics/horiz/m/neal_nick_jimmy.jpg'>
+					<img class='hidden' src='pics/horiz/s/neal_nick_jimmy.jpg' /></a></li>
+				<li class='hide-for-small hide-for-medium'><a href='pics/horiz/m/han_chr.jpg'>
+					<img class='hidden' src='pics/horiz/s/han_chr.jpg' /></a></li>
+				<li><a href='pics/horiz/m/jen_julia.jpg'>
+					<img class='hidden' src='pics/horiz/s/jen_julia.jpg' /></a></li>
+				<li><a href='pics/horiz/m/bri.jpg'>
+					<img class='hidden' src='pics/horiz/s/bri.jpg' /></a></li>
+			</ul>
+		</div>
+    </div>
+	<br><br>
+	</div>
+
+	<div id='ea' class='ea_back'>
+    <div class='row'>
+		<div class='large-12 columns'>
+			<center><br><br><h3>Involvement</h3><br><br></center>
+		</div>
+		<div class='large-12 columns'>
+		<ul class='small-block-grid-1 medium-block-grid-1 large-block-grid-1'>
+			<li>
+			<center>
+				<a href='http://www.engr.psu.edu/ambassadors'>
+					<img id='size_ea_logo' class='hidden' src='pics/ea/ea_logo_gr.png' />
+				</a>
+			</center>
+			</li>
+		</ul>
+		</div>
+    </div>
+	</div>
+
+	<div id='whimsy' class='green'>
+	<div class='row'>
+		<div class='large-12 columns'>
+			<center><br><br><h3>Data Science</h3><br><br><center>
+		</div>
+
+		<div id='graph_descriptor' class='small-12 medium-4 large-4 columns'>
+			<h5 class='y_text'>
+				<a href='https://www.facebook.com/photographybybryan'>
+					<i class='fi-social-facebook style6'></i>
+				</a>
+				&nbsp;&nbsp;Connectivity Graph
+			</h5>
+			<p id='annotate' class='w_text'> *Updates 4am daily<p>
+			<p>
+				Circle size represents photo album like counts.
+				Albums with a similar number of pictures are the same color.
+
+				Connections are when a person liked both albums.
+				Thus, Engineering Ambassadors are linked.
+			</p>
+
+			<h5 class='y_text'>Mobile</h5>
+			<p>
+				Chrome works best. Tap &#38; drag to move circles around.
+			</p>
+			<h5 class='y_text'>Desktop</h5>
+			<p>
+				Double click opens album. Click to drag circles around.
+			</p>
+		</div>
+
+		<div id='fb_graph' class='small-12 medium-8 large-8 columns'></div>
+	</div>
+	</div>
+
+	<div id='footer'>
+	<div class='row'>
+	<div class='large-12 columns'>
+		<br>
+		<center>
+			<p>
+				Made with
+				<a class='lock' href='https://twitter.com/bryanwtan'
+					target='_blank'>
+					<i class='icon-lock fi-social-twitter'></i>
+					<span class='icon-unlock'>♥</span>
+				</a>
+				in Philadelphia
+			</p>
+		</center>
+	</div>
+	</div>
+
+	<!-- d3 -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js' charset='utf-8'></script>
+	<!-- facebook force graph -->
+	<script src='js/facebook_graph.js'></script>
+	<!-- foundation -->
+	<script src='js/foundation.min.js'></script>
+	<!-- custom -->
+	<script src='js/main.js'></script>
+	<script src='js/nav_and_scroll.js'></script>
+
+
+	<!-- Google Analytics page views -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-58397748-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

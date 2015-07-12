@@ -1,0 +1,25 @@
+{
+  "name": "bryanwtan.com",
+  "version": "0.1.0",
+  "description": "All fun in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "iojs": "1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryanwtan/bryanHerokuNode.git"
+  },
+  "dependencies": {
+    "cron": "^1.0.9",
+    "github": "^0.2.4",
+    "node-static": "^0.7.6",
+    "request": "^2.58.0",
+    "socket.io": "^1.3.5",
+    "twilio": "^2.2.1"
+  },
+  "license": "MIT"
+}
