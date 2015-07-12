@@ -3,7 +3,7 @@
 Check out humans.txt at:
 https://github.com/bryanwtan/bryanwtan_site_15/blob/master/public/humans.txt
 
-### Node.js/io.js stuff
+#### Node.js/io.js stuff
 socket.io for client and server communication
 
 Twilio integration for texting on page view. Scroll based to prevent reload activation
