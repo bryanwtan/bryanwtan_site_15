@@ -1,12 +1,12 @@
 // npm modules installed
 var server = require('http').createServer(handler)
-    , static = require('node-static')
+    , static_serve = require('node-static')
     , io = require('socket.io')(server)
     , twiliojs = require('./twilio.js')
     // , githubjs = require('./github.js')
     , facebookjs = require('./facebook.js')
     // static file request handling
-    , file = new static.Server('./public');
+    , file = new static_serve.Server('./public');
 
 const port = process.env.PORT || 3000;
 server.listen(port, function(req, res){
